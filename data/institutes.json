@@ -1,0 +1,65 @@
+[
+ {
+  "code": "CMI",
+  "name": "Instituut voor Communicatie, Media en IT",
+  "match": [
+   "communicatie, media"
+  ]
+ },
+ {
+  "code": "EAS",
+  "name": "Instituut voor Engineering en Applied Science",
+  "match": [
+   "engineering"
+  ]
+ },
+ {
+  "code": "IGO",
+  "name": "Instituut voor de Gebouwde Omgeving",
+  "match": [
+   "gebouwde omgeving"
+  ]
+ },
+ {
+  "code": "ISO",
+  "name": "Instituut voor Sociale Opleidingen",
+  "match": [
+   "sociale opleidingen"
+  ]
+ },
+ {
+  "code": "IVG",
+  "name": "Instituut voor Gezondheidszorg",
+  "match": [
+   "gezondheidszorg"
+  ]
+ },
+ {
+  "code": "IVL",
+  "name": "Instituut voor Lerarenopleidingen",
+  "match": [
+   "lerarenopleidingen"
+  ]
+ },
+ {
+  "code": "RBS",
+  "name": "Rotterdam Business School",
+  "match": [
+   "business school"
+  ]
+ },
+ {
+  "code": "RMI",
+  "name": "Rotterdam Mainport Institute",
+  "match": [
+   "mainport"
+  ]
+ },
+ {
+  "code": "WDK",
+  "name": "Willem de Kooning Academie",
+  "match": [
+   "willem de kooning"
+  ]
+ }
+]

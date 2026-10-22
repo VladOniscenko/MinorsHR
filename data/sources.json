@@ -1,0 +1,61 @@
+{
+ "sources": [
+  {
+   "id": "osiris",
+   "name": "Osiris onderwijscatalogus",
+   "url": "https://hr.osiris-student.nl/onderwijscatalogus",
+   "requires_login": true,
+   "provides": [
+    "semester/blok per collegejaar",
+    "inschrijfperiode",
+    "studiepunten",
+    "voertaal",
+    "doelgroep (opleidingen)",
+    "toegelaten opleidingen"
+   ],
+   "export_tool": "tools/browser/osiris-export.js"
+  },
+  {
+   "id": "hint",
+   "name": "HINT minoroverzicht en minorpagina's",
+   "url": "https://hint.hr.nl/nl/HR/Studie/keuzes-in-je-studie/Minors/Minoroverzicht/",
+   "requires_login": true,
+   "provides": [
+    "omschrijving",
+    "toelatingseisen",
+    "programma",
+    "locatie",
+    "vorm (voltijd/deeltijd/duaal)",
+    "minorcode",
+    "periode"
+   ],
+   "export_tool": "tools/browser/hint-export.js"
+  },
+  {
+   "id": "manual",
+   "name": "Handmatig onderhouden",
+   "url": "",
+   "requires_login": false,
+   "provides": [
+    "RBS semester 6-programma's",
+    "beoordelingen (assessments.json)",
+    "waarschuwingen",
+    "kalender"
+   ]
+  }
+ ],
+ "snapshots": [
+  {
+   "source": "osiris",
+   "year": "2026-2027",
+   "retrieved": "2026-10-22",
+   "file": "osiris-export-2026-10-22.json"
+  },
+  {
+   "source": "hint",
+   "year": "2026-2027",
+   "retrieved": "2026-10-22",
+   "file": "hint-export-2026-10-22.json"
+  }
+ ]
+}

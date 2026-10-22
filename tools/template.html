@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minorkeuze Hogeschool Rotterdam</title>
+<style>
+:root{--red:#cd0030;--ink:#111827;--mut:#6b7280;--bg:#f3f4f6}
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+.risk{background:#b91c1c;color:#fff;padding:14px 20px;text-align:center;font-size:1rem;border-bottom:4px solid #7f1d1d}
+.risk b{font-size:1.1rem;letter-spacing:.3px}
+header{background:linear-gradient(135deg,#cd0030,#7a0019);color:#fff;padding:32px 20px 54px}
+.wrap{max-width:1150px;margin:0 auto;padding:0 20px}header .wrap{padding:0}
+h1{margin:0 0 6px;font-size:2rem}header p{margin:4px 0;opacity:.92}
+.pick{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e5e7eb;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.pick .wrap{display:flex;gap:14px;align-items:flex-end;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.pick .f{display:flex;flex-direction:column;gap:2px}.pick label{font-weight:600;font-size:.8rem;color:var(--mut)}
+.pick select{padding:8px 10px;font-size:1rem;border:2px solid var(--red);border-radius:8px;background:#fff;min-width:150px}
+.pick select#study{min-width:260px;max-width:480px}
+.pick span{color:var(--mut);font-size:.8rem;align-self:center}
+main{margin-top:18px}
+section{background:#fff;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.08);padding:22px 24px;margin-bottom:20px}
+h2{margin:0 0 14px;font-size:1.25rem}h3{margin:0;font-size:1.02rem}
+.warn{background:#fff7ed;border:1px solid #fdba74;border-radius:10px;padding:12px 16px;margin-bottom:20px;font-size:.92rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:20px}
+.kpi{background:#fff;border-radius:12px;padding:16px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.kpi b{display:block;font-size:2rem;color:var(--red)}.kpi span{color:var(--mut);font-size:.88rem;display:block}.kpi small{color:#9ca3af;font-size:.75rem}
+.tline{display:flex;flex-wrap:wrap}.st{flex:1;min-width:150px;position:relative;padding-top:22px;border-top:3px solid #e5e7eb;display:flex;flex-direction:column}
+.st .dot{position:absolute;top:-8px;left:0;width:13px;height:13px;border-radius:50%;background:var(--red)}.st.past .dot{background:#9ca3af}.st span{color:var(--mut);font-size:.85rem}
+.cols{display:grid;grid-template-columns:1.2fr 1fr;gap:22px;align-items:start}.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;align-items:start}
+@media(max-width:850px){.cols{grid-template-columns:1fr}}
+.chart .row{display:grid;grid-template-columns:200px 1fr 40px;gap:10px;align-items:center;margin:6px 0;font-size:.88rem}
+.tr{background:#e5e7eb;border-radius:99px;height:10px;overflow:hidden;display:flex}.tr.big{height:16px}.tr i{display:block;height:100%}
+em{font-style:normal;font-weight:600;font-size:.85rem}
+.lg{display:inline-flex;align-items:center;gap:6px;margin-right:14px;font-size:.85rem}.lg i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.legend{text-align:center;margin-top:6px}.radar{max-width:360px;margin:auto}
+.seg{display:flex;height:22px;border-radius:99px;overflow:hidden;margin:6px 0 10px;background:#e5e7eb}.seg div{height:100%}
+.donut{width:120px;height:120px;border-radius:50%;display:grid;place-items:center;margin:0 auto 8px}.donut b{background:#fff;width:80px;height:80px;border-radius:50%;display:grid;place-items:center;font-size:1.3rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+.card{border:1px solid #e5e7eb;border-radius:12px;padding:14px 16px;background:#fff}
+.ch{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.meta{margin-top:6px}
+.badge{display:inline-block;color:#fff;font-size:.72rem;padding:2px 8px;border-radius:99px;margin:1px 2px 1px 0}.badge.gr{background:#6b7280}
+.ring{flex:none;width:58px;height:58px;border-radius:50%;display:grid;place-items:center}
+.ring b{background:#fff;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-size:.98rem}
+.bars{margin-top:10px}.b{display:grid;grid-template-columns:68px 1fr 18px;gap:8px;align-items:center;font-size:.78rem;margin:3px 0;color:#374151}.b .tr{height:7px}
+.note{margin:8px 0 2px;font-size:.86rem;color:#374151}.enr{margin:0;font-size:.8rem;color:var(--red);font-weight:600}.wn{margin:6px 0 0;font-size:.8rem;color:#b45309}
+.cmp{display:inline-flex;gap:6px;align-items:center;font-size:.8rem;color:#374151;margin-top:8px;cursor:pointer}
+a{color:#1d4ed8}.card h3 a{color:inherit;text-decoration:none}.card h3 a:hover{text-decoration:underline}
+details{border:1px solid #e5e7eb;border-radius:12px;margin:12px 0;background:#fff}details>summary{cursor:pointer;padding:12px 16px;font-weight:600;list-style:none}
+details>summary::before{content:"\25B8  ";color:var(--red)}details[open]>summary::before{content:"\25BE  "}details>.in{padding:6px 16px 16px}
+.card details{margin:8px 0 0;border-color:#eef0f3}.card details>summary{padding:6px 10px;font-weight:500;font-size:.82rem}.card details .in{font-size:.82rem;color:#374151}.card details h4{margin:8px 0 2px;font-size:.8rem}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.84rem}th,td{padding:6px 8px;border-bottom:1px solid #eef0f3;text-align:left;vertical-align:top}
+th{background:#f9fafb;font-size:.78rem}td.sc{text-align:center;width:30px;font-weight:600}.nm{font-weight:600}.tt{text-align:center}.nt{color:#4b5563;min-width:180px}
+.ctl{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 10px}.ctl input,.ctl select{padding:8px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:.92rem}.ctl input{flex:1;min-width:200px}
+ul.adv{margin:0;padding-left:20px}ul.adv li{margin:6px 0}
+.chips span{display:inline-block;background:#f3f4f6;border-radius:99px;padding:3px 10px;margin:3px;font-size:.8rem}
+.prof-only{display:none}body[data-prof="1"] .prof-only{display:block}
+.cmpt td:first-child,.cmpt th:first-child{white-space:nowrap;font-weight:600;color:#374151}.cmpt td{min-width:180px;max-width:300px}
+footer{text-align:center;color:var(--mut);font-size:.8rem;padding:10px 0 30px}
+</style>
+</head>
+<body>
+<div class="risk">&#128680; <b>GEBRUIK OP EIGEN RISICO.</b> Dit rapport is gemaakt met behulp van AI en kan fouten of verouderde informatie bevatten. De maker neemt geen enkele verantwoordelijkheid voor keuzes die op basis van dit rapport worden gemaakt. Controleer altijd bij HR of de minorcoördinator.</div>
+<header><div class="wrap">
+<h1>Minorkeuze Hogeschool Rotterdam</h1>
+<p id="sub">Kies collegejaar, semester en opleiding en zie welke minors dan worden aangeboden en bij jou passen.</p>
+<p>Bronnen: <b>HINT</b> (minoroverzicht en minorpagina's) en <b>Osiris</b> (onderwijscatalogus).</p>
+</div></header>
+<div class="pick"><div class="wrap">
+<div class="f"><label for="year">Collegejaar</label><select id="year"></select></div>
+<div class="f"><label for="term">Semester</label><select id="term"></select></div>
+<div class="f"><label for="study">Opleiding</label><select id="study"></select></div>
+<span id="count"></span></div></div>
+<main class="wrap">
+<div class="warn"><b>Let op: het aanbod kan nog wijzigen.</b> HINT en Osiris verschillen op enkele punten en HR heeft mogelijk nog niet alles bijgewerkt. Controleer bij de minorcoördinator of een minor in jouw semester start voordat je kiest. <span id="snap"></span></div>
+<div id="empty" class="warn" style="display:none"></div>
+<div id="content">
+<div class="kpis" id="kpis"></div>
+<section><h2>Tijdlijn</h2><div class="tline" id="tline"></div></section>
+<section><h2>Advies voor jouw opleiding</h2><div id="adv"></div></section>
+<section><h2>Statistieken voor jouw opleiding</h2><div class="cols3" id="charts"></div>
+<div class="prof-only" style="margin-top:22px"><h3 style="margin-bottom:8px" id="profTitle"></h3><div class="cols"><div id="totals"></div><div><h3 style="text-align:center">Top 3 vergeleken</h3><div id="radar"></div></div></div></div></section>
+<section><h2 id="cardsTitle"></h2>
+<p style="font-size:.85rem;color:var(--mut)"><span class="badge" style="background:#2563eb">Verdiepend</span> jouw opleiding is een doelgroep van de minor (Osiris). <span class="badge" style="background:#d97706">Verbredend</span> toegelaten, maar geen specifieke doelgroep. Sem. met &dagger;: start nog te bevestigen. Sem. 1+2: wordt in beide semesters aangeboden. Vink minors aan om ze te vergelijken.</p>
+<div class="cards" id="cards"></div><div id="moreWrap"></div>
+<details id="naBox"><summary id="naTitle"></summary><div class="in" id="naBody"></div></details>
+<details id="unkBox"><summary id="unkTitle"></summary><div class="in" id="unkBody"></div></details>
+<div class="prof-only"><details><summary>Toelichting bij de opties</summary><div class="in tw" id="toel"></div></details></div></section>
+<section id="cmpSec" style="display:none"><h2>Vergelijking</h2><p style="font-size:.85rem;color:var(--mut)">Maximaal 4 minors. <a href="#" id="cmpClear">Wis selectie</a></p><div class="tw" id="cmpBox"></div></section>
+<section><h2>Overige minors</h2><p style="color:var(--mut);margin-top:0" id="otherInfo"></p>
+<details><summary id="otherTitle"></summary><div class="in">
+<div class="ctl"><input id="q" placeholder="Zoek op naam, instituut of opmerking..."><select id="fs"><option value="">Alle soorten</option><option value="V">Verdiepend</option><option value="B">Verbredend</option><option value="N">Niet toegelaten</option><option value="U">Onbekend</option></select><select id="ft"><option value="">Alle overige</option><option value="B">Dit semester, zonder (open) inschrijving</option><option value="C">Alleen in een ander semester</option></select></div>
+<div class="tw" id="otherTable"></div>
+<div class="prof-only"><div style="max-width:380px;margin:12px auto"><h3 style="text-align:center">Top 3 verdiepend (overige)</h3><div id="radarC"></div></div>
+<details><summary>Toelichting bij de overige minors</summary><div class="in tw" id="toelc"></div></details></div>
+</div></details></section>
+</div>
+<section><details style="margin:0"><summary>Hoe is dit opgebouwd? Bronnen, dataset, criteria en kanttekeningen</summary><div class="in">
+<h3>Bronnen</h3>
+<ul id="srcList"></ul>
+<p>Waar HINT en Osiris verschillen, gaat voor semester, inschrijving en toelating Osiris voor; voor inhoud en extra eisen (zoals 90 EC of stage) HINT.</p>
+<h3>Dataset</h3>
+<p>De pagina wordt gebouwd uit JSON-bestanden (opleidingen, minors, aanbiedingen per collegejaar en semester, kalender, beoordelingen). Nieuwe jaren of semesters worden toegevoegd met de importscripts; zie de README in de map minor-tool. Beschikbare gegevens: <span id="snapList"></span></p>
+<h3>Status per opleiding</h3>
+<p>Verdiepend: jouw opleiding staat in Osiris bij de doelgroep van de minor. Verbredend: jouw opleiding mag inschrijven, maar is geen specifieke doelgroep. Niet toegelaten: jouw opleiding staat niet in de lijst van toegelaten opleidingen. Onbekend: de minor staat alleen op HINT, of het programma noemt geen deelnemende opleidingen. Extra eisen (stage, 90 EC, propedeuse, intake) staan niet in dit overzicht: lees altijd de HINT-pagina.</p>
+<div class="prof-only"><h3 id="critTitle"></h3><p id="critDesc"></p><div class="tw" id="crit"></div></div>
+<h3>Kanttekeningen</h3>
+<ul><li>Het aanbod kan nog wijzigen: HR heeft mogelijk nog niet alles bijgewerkt. Een minor die nu in een ander semester staat, kan toch in jouw semester worden aangeboden. Vraag het na bij de coördinator.</li>
+<li>Ervaringen van studenten (werkdruk, docentkwaliteit) zitten er niet in. Vraag die na op de minorbeurs of bij oudere studenten.</li>
+<li>Toelatingseisen kunnen veranderen. Bevestig altijd bij de coördinator en op de HINT-pagina.</li></ul>
+</div></details></section>
+</main>
+<footer id="foot"></footer>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+var D=JSON.parse(document.getElementById('data').textContent);
+var S=D.studies,M=D.minors,O=D.off,CAL=D.cal,PROF=D.prof;
+var ORDER=['N','V'];
+var COLR={V:'#2563eb',B:'#d97706',N:'#9ca3af',U:'#6b7280'};
+var TN={V:'Verdiepend',B:'Verbredend',N:'Niet toegelaten',U:'Onbekend'};
+var MON=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+var $=function(id){return document.getElementById(id)};
+var P=new URLSearchParams(location.hash.slice(1));
+var TODAY=P.get('today')||new Date().toISOString().slice(0,10);
+var cmpSel=[];
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function lab(s){return s.lv==='Associate degree'?s.l+' (Ad)':s.l}
+function fmt(iso){var p=iso.split('-');return parseInt(p[2],10)+' '+MON[parseInt(p[1],10)-1]+' '+p[0]}
+function short(t,n){t=(t||'').trim();return t.length>n?t.slice(0,n).replace(/\s+\S*$/,'')+'\u2026':t}
+function hue(v){return 'hsl('+Math.round((v-1)/9*120)+',65%,86%)'}
+function badge(st){return '<span class="badge" style="background:'+COLR[st]+'">'+TN[st]+'</span>'}
+
+var YEARS=Object.keys(CAL).filter(function(y){return O.some(function(o){return o.y===y&&o.act})}).sort();
+function termsOf(y){var set={};O.forEach(function(o){if(o.y===y&&o.act)set[o.t]=1});return Object.keys(set).sort(function(a,b){return ORDER.indexOf(a)-ORDER.indexOf(b)})}
+function tl(y,t){return CAL[y].terms[t].l}
+function defaultSel(){
+ var all=[];YEARS.forEach(function(y){termsOf(y).forEach(function(t){var c=CAL[y].terms[t];all.push({y:y,t:t,s:c.s||'9999',e:c.e||'9999'})})});
+ all.sort(function(a,b){return a.s<b.s?-1:1});
+ var up=all.filter(function(x){return x.s>TODAY});if(up.length)return up[0];
+ var run=all.filter(function(x){return x.e>=TODAY});if(run.length)return run[0];
+ return all[all.length-1]}
+function profFor(s){for(var i=0;i<PROF.length;i++)if(PROF[i].st.indexOf(s)>-1)return PROF[i];return null}
+function rawStatus(o,s){if(o.a===null)return 'U';if(o.o.indexOf(s)>-1)return 'V';if(o.a.indexOf(s)>-1)return 'B';return 'N'}
+function enrich(o,s,prof){
+ var m=M[o.m],st=rawStatus(o,s),c=null;
+ if(prof){var it=prof.items[o.m];if(it&&st!=='N'){c=it;if(st==='V'||st==='B')st=it.t==='verdiepend'?'V':'B'}}
+ return {o:o,m:m,mi:o.m,st:st,cur:c}}
+function link(e,year){var d=D.det[e.mi]&&(D.det[e.mi][year]||D.det[e.mi][Object.keys(D.det[e.mi]).sort().pop()]);var u=d&&(d.url||'');return u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(e.m.n)+'</a>':esc(e.m.n)}
+function detail(e,year){var d=D.det[e.mi];if(!d)return null;return d[year]||d[Object.keys(d).sort().pop()]}
+function enrText(o){
+ if(!o.e)return '';
+ if(TODAY<o.e[0])return 'Inschrijving opent '+fmt(o.e[0])+' en loopt t/m '+fmt(o.e[1]);
+ if(TODAY<=o.e[1])return 'Inschrijven t/m '+fmt(o.e[1]);
+ return 'Inschrijving gesloten sinds '+fmt(o.e[1])}
+function cmpf(a,b){
+ if(a.cur||b.cur){var d=(b.cur?total(b.cur):-1)-(a.cur?total(a.cur):-1);if(d)return d}
+ var o={V:0,B:1,U:2,N:3};var x=o[a.st]-o[b.st];if(x)return x;return a.m.n.localeCompare(b.m.n)}
+var CURW=null;
+function total(it){var t=0;for(var i=0;i<CURW.length;i++)t+=it.s[i]*CURW[i];return Math.floor(t/10+0.5)/10}
+function radar(series,crit){
+ var size=300,cx=150,cy=155,R=100,n=crit.length;
+ function pt(i,v){return [cx+R*v/10*Math.sin(2*Math.PI*i/n),cy-R*v/10*Math.cos(2*Math.PI*i/n)]}
+ var g='';
+ [2,4,6,8,10].forEach(function(l){var p=[];for(var i=0;i<n;i++)p.push(pt(i,l).map(function(x){return x.toFixed(1)}).join(','));g+='<polygon points="'+p.join(' ')+'" fill="none" stroke="#d1d5db"/>'});
+ crit.forEach(function(c,i){var e=pt(i,10),l=pt(i,12.3);g+='<line x1="'+cx+'" y1="'+cy+'" x2="'+e[0].toFixed(1)+'" y2="'+e[1].toFixed(1)+'" stroke="#e5e7eb"/><text x="'+l[0].toFixed(1)+'" y="'+(l[1]+4).toFixed(1)+'" text-anchor="middle" font-size="12" fill="#374151">'+esc(c.l)+'</text>'});
+ series.forEach(function(s){var p=s.s.map(function(v,i){return pt(i,v).map(function(x){return x.toFixed(1)}).join(',')}).join(' ');g+='<polygon points="'+p+'" fill="'+s.c+'" fill-opacity=".18" stroke="'+s.c+'" stroke-width="2"/>'});
+ var leg=series.map(function(s){return '<span class="lg"><i style="background:'+s.c+'"></i>'+esc(s.n)+'</span>'}).join('');
+ return '<div class="radar"><svg viewBox="0 0 '+size+' '+(size+10)+'" width="100%">'+g+'</svg><div class="legend">'+leg+'</div></div>'}
+
+var CTX=null;
+function semLabel(e){
+ var ts=CTX.termsByMinor[e.mi]||[e.o.t];
+ var s=ts.map(function(t){var i=ORDER.indexOf(t);return i>-1?(i+1):t}).join('+');
+ return s+(e.o.u?'\u2020':'')}
+function card(e){
+ var o=e.o,m=e.m,c=e.cur,col=COLR[e.st]||'#6b7280';
+ var d=detail(e,CTX.y);
+ var badges=badge(e.st)+' <span class="badge gr">'+esc(m.i)+'</span> <span class="badge gr">Sem. '+semLabel(e)+'</span>'+(o.ec?' <span class="badge gr">'+o.ec+' EC</span>':'')+(o.l?' <span class="badge gr">'+o.l+'</span>':'')+(d&&d.loc?' <span class="badge gr">'+esc(d.loc)+'</span>':'');
+ var ring='',bars='',note='';
+ if(c){var tot=total(c);ring='<div class="ring" style="background:conic-gradient('+col+' '+(tot*10)+'%,#e5e7eb 0)"><b>'+tot.toFixed(1)+'</b></div>';
+  bars='<div class="bars">'+CTX.prof.crit.map(function(k,i){return '<div class="b"><span>'+esc(k.l)+'</span><div class="tr"><i style="width:'+(c.s[i]*10)+'%;background:'+col+'"></i></div><em>'+c.s[i]+'</em></div>'}).join('')+'</div>';
+  note=c.n}
+ else note=e.st==='V'?'Jouw opleiding is een doelgroep van deze minor.':(e.st==='B'?'Toegankelijk voor jouw opleiding; geen specifieke doelgroep.':'Toelating onbekend: lees de pagina.');
+ var enr=enrText(o)||o.n;
+ var det='';
+ if(d&&(d.tag||d.desc||d.adm||d.bg)){det='<details><summary>Meer details (HINT)</summary><div class="in">'+(d.tag?'<p>'+esc(d.tag)+'</p>':'')+(d.desc?'<h4>Omschrijving</h4>'+esc(d.desc):'')+(d.adm?'<h4>Toelatingseisen</h4>'+esc(d.adm):'')+(d.bg?'<h4>Inhoud en programma</h4>'+esc(d.bg):'')+(d.per?'<h4>Periode</h4>'+esc(d.per):'')+'</div></details>'}
+ return '<div class="card"><div class="ch"><div><h3>'+link(e,CTX.y)+(c&&c.star?' *':'')+'</h3><div class="meta">'+badges+'</div></div>'+ring+'</div>'+bars+'<p class="note">'+esc(note)+'</p>'+(enr?'<p class="enr">'+esc(enr)+(o.e&&o.n?'':'')+'</p>':'')+(o.e&&o.n?'<p class="note">'+esc(o.n)+'</p>':'')+(o.w?'<p class="wn">&#9888; '+esc(o.w)+'</p>':'')+det+
+  '<label class="cmp"><input type="checkbox" data-c="'+e.mi+'"'+(cmpSel.indexOf(e.mi)>-1?' checked':'')+'> vergelijk</label></div>'}
+
+function commTable(list,ids){
+ var rows=list.filter(function(c){return c.m.some(function(x){return ids[x]})});
+ if(!rows.length)return '<p style="color:var(--mut)">Geen toelichting beschikbaar.</p>';
+ return '<table><thead><tr><th>Minor</th><th>Inhoud</th><th>Toelating / let op</th></tr></thead><tbody>'+rows.map(function(c){return '<tr><td class="nm">'+c.m.map(function(x){return esc(M[x].n)}).join(', ')+'</td><td>'+esc(c.s)+'</td><td>'+esc(c.a)+'</td></tr>'}).join('')+'</tbody></table>'}
+
+function countOpen(y,t,s){var n=0;var offs=O.filter(function(o){return o.y===y&&o.t===t&&o.act});var hasWin=offs.some(function(o){return o.e});
+ offs.forEach(function(o){var tier=hasWin?((o.e||M[o.m].k==='p')?'A':'B'):'A';if(tier==='A'){var st=rawStatus(o,s);if(st==='V'||st==='B')n++}});return n}
+
+function render(){
+ var y=$('year').value,t=$('term').value,sid=$('study').value;
+ var s=S.findIndex(function(x){return x.id===sid});
+ var prof=profFor(s);CURW=prof?prof.crit.map(function(c){return c.w}):null;
+ document.body.dataset.prof=prof?'1':'0';
+ try{history.replaceState(null,'','#'+new URLSearchParams({y:y,t:t,s:sid}).toString())}catch(e){}
+ $('sub').textContent='Aanbod in '+tl(y,t)+' van '+y+' voor jouw opleiding.';
+ $('count').textContent=S.length+' opleidingen';
+ var offsYear=O.filter(function(o){return o.y===y&&o.act});
+ var inTerm=offsYear.filter(function(o){return o.t===t});
+ if(!inTerm.length){$('content').style.display='none';$('empty').style.display='';$('empty').textContent='Er zijn geen minors bekend voor '+tl(y,t)+' '+y+'. Voeg de gegevens toe met de importscripts (zie README).';return}
+ $('content').style.display='';$('empty').style.display='none';
+ var hasWin=inTerm.some(function(o){return o.e});
+ var termsByMinor={};offsYear.forEach(function(o){(termsByMinor[o.m]=termsByMinor[o.m]||[]).push(o.t)});
+ Object.keys(termsByMinor).forEach(function(k){termsByMinor[k]=termsByMinor[k].filter(function(v,i,a){return a.indexOf(v)===i}).sort(function(a,b){return ORDER.indexOf(a)-ORDER.indexOf(b)})});
+ CTX={y:y,t:t,s:s,prof:prof,termsByMinor:termsByMinor};
+ var A=[],B=[],C=[];
+ inTerm.forEach(function(o){var e=enrich(o,s,prof);var tier=hasWin?((o.e||e.m.k==='p')?'A':'B'):'A';e.tier=tier;(tier==='A'?A:B).push(e)});
+ var inTermIds={};inTerm.forEach(function(o){inTermIds[o.m]=1});
+ var seenC={};offsYear.forEach(function(o){if(o.t!==t&&!inTermIds[o.m]&&!seenC[o.m]){seenC[o.m]=1;var e=enrich(o,s,prof);e.tier='C';C.push(e)}});
+ var ok=function(x){return x.st==='V'||x.st==='B'};
+ var Aadm=A.filter(ok).sort(cmpf),Ano=A.filter(function(x){return x.st==='N'}),Aunk=A.filter(function(x){return x.st==='U'});
+ var nV=Aadm.filter(function(x){return x.st==='V'}).length,nB=Aadm.length-nV;
+ var ends=A.filter(function(x){return x.o.e}).map(function(x){return x.o.e[1]}).sort();
+ var dl=ends.length?ends[ends.length-1]:null;
+ var avg=0;for(var i=0;i<S.length;i++)avg+=countOpen(y,t,i);avg=(avg/S.length).toFixed(1);
+ var tlab=tl(y,t);
+ $('kpis').innerHTML=
+  '<div class="kpi"><b>'+A.length+'</b><span>minors in '+esc(tlab.toLowerCase())+'</span><small>alle opleidingen'+(hasWin?', met inschrijfperiode':'')+'</small></div>'+
+  '<div class="kpi"><b>'+Aadm.length+'</b><span>toegankelijk voor jouw opleiding</span><small>gemiddeld '+avg+' per opleiding</small></div>'+
+  '<div class="kpi"><b style="color:#2563eb">'+nV+'</b><span>verdiepend</span><small>jouw opleiding is doelgroep</small></div>'+
+  '<div class="kpi"><b style="color:#d97706">'+nB+'</b><span>verbredend</span><small>toegelaten, geen doelgroep</small></div>'+
+  '<div class="kpi"><b>'+(dl?fmt(dl).replace(/ \d{4}$/,''):'-')+'</b><span>'+(dl?(TODAY<=dl?'inschrijving sluit':'inschrijving sloot'):'inschrijving')+'</span><small>'+(dl?dl.slice(0,4):'geen inschrijfperiode in de data')+'</small></div>';
+ // tijdlijn
+ var ev=(CAL[y].events||[]).filter(function(e){return !e.t||e.t===t}).map(function(e){return {d:e.d,l:e.l}});
+ var tc=CAL[y].terms[t];if(tc.s)ev.push({d:tc.s,l:'Start '+tlab.toLowerCase()});if(tc.e)ev.push({d:tc.e,l:'Einde '+tlab.toLowerCase()});
+ ev.sort(function(a,b){return a.d<b.d?-1:1});
+ $('tline').innerHTML=ev.map(function(e){return '<div class="st'+(e.d<TODAY?' past':'')+'"><div class="dot"></div><b>'+fmt(e.d)+'</b><span>'+esc(e.l)+'</span></div>'}).join('')||'<p style="color:var(--mut)">Geen data bekend.</p>';
+ // advies
+ var vs=Aadm.filter(function(x){return x.st==='V'}),bs=Aadm.filter(function(x){return x.st==='B'});
+ var nm=function(a,n){return a.slice(0,n).map(function(x){return '<b>'+esc(x.m.n)+(x.cur?' ('+total(x.cur).toFixed(1)+')':'')+'</b>'}).join(', ')};
+ var adv='<ul class="adv">';
+ adv+=vs.length?'<li><b>Gericht op jouw opleiding in '+esc(tlab.toLowerCase())+':</b> '+nm(vs,4)+'.</li>':'<li><b>Geen minors in '+esc(tlab.toLowerCase())+' die zich specifiek op jouw opleiding richten.</b> Alle opties zijn verbredend.</li>';
+ if(bs.length)adv+='<li><b>Verbreden:</b> '+bs.length+' minors zijn toegankelijk voor jouw opleiding, bijvoorbeeld '+nm(bs,3)+'.</li>';
+ var otherV=C.filter(function(x){return x.st==='V'}).sort(cmpf);
+ if(otherV.length)adv+='<li><b>Gericht op jouw opleiding, maar in een ander semester:</b> '+nm(otherV,3)+'. Vraag de coördinator of er ook een uitvoering in '+esc(tlab.toLowerCase())+' komt.</li>';
+ if(Aadm.some(function(x){return x.o.u}))adv+='<li>Bij minors met &dagger; (programma\'s) is de start nog te bevestigen; zie de details op de kaart.</li>';
+ adv+=dl?'<li>Inschrijven via Osiris: <b>'+(TODAY<=dl?'t/m ':'sloot op ')+fmt(dl)+'</b>. Controleer op de HINT-pagina van elke minor de extra toelatingseisen (stage, 90 EC, intake).</li>':'<li>Controleer op de HINT-pagina van elke minor de extra toelatingseisen (stage, 90 EC, intake) en de inschrijving.</li>';
+ $('adv').innerHTML=adv+'</ul>';
+ // grafieken
+ var seg=[['Aangeboden met inschrijfperiode',Aadm.length,'#16a34a'],['Dit semester, zonder (open) inschrijving',B.filter(ok).length,'#f59e0b'],['Alleen in een ander semester',C.filter(ok).length,'#9ca3af']];
+ if(!hasWin)seg[0][0]='Aangeboden in dit semester';
+ var tot=seg.reduce(function(a,x){return a+x[1]},0)||1;
+ var c1='<div><h3>Aanbod voor jouw opleiding</h3><div class="seg">'+seg.map(function(x){return '<div style="width:'+(x[1]/tot*100)+'%;background:'+x[2]+'" title="'+x[0]+'"></div>'}).join('')+'</div>'+seg.map(function(x){return '<div class="lg"><i style="background:'+x[2]+'"></i>'+x[0]+': <b>'+x[1]+'</b></div>'}).join('<br>')+'<p style="font-size:.8rem;color:var(--mut)">Aantal minors in '+y+' waarvoor jouw opleiding toegelaten is.</p></div>';
+ var inst={};Aadm.forEach(function(x){var k=x.m.i||'?';inst[k]=inst[k]||{V:0,B:0};inst[k][x.st]++});
+ var keys=Object.keys(inst).sort(function(a,b){return (inst[b].V+inst[b].B)-(inst[a].V+inst[a].B)});
+ var mx=Math.max.apply(null,keys.map(function(k){return inst[k].V+inst[k].B}).concat([1]));
+ var c2='<div><h3>Minors per instituut</h3><div class="chart">'+(keys.map(function(k){var v=inst[k];return '<div class="row" style="grid-template-columns:70px 1fr 30px"><div title="'+esc(D.inst[k]||'')+'">'+esc(k)+'</div><div class="tr big"><i style="width:'+(v.V/mx*100)+'%;background:#2563eb"></i><i style="width:'+(v.B/mx*100)+'%;background:#d97706"></i></div><em>'+(v.V+v.B)+'</em></div>'}).join('')||'<p style="color:var(--mut)">Geen minors.</p>')+'</div><div style="margin-top:6px"><span class="lg"><i style="background:#2563eb"></i>Verdiepend</span><span class="lg"><i style="background:#d97706"></i>Verbredend</span></div></div>';
+ var lg={NL:0,EN:0,'NL/EN':0,'?':0};Aadm.forEach(function(x){var l=x.o.l||'?';lg[l]=(lg[l]||0)+1});
+ var lt=(lg.NL+lg.EN+lg['NL/EN']+lg['?'])||1,a1=lg.NL/lt*100,a2=a1+lg.EN/lt*100,a3=a2+lg['NL/EN']/lt*100;
+ var c3='<div><h3>Voertaal</h3><div class="donut" style="background:conic-gradient(#2563eb 0 '+a1+'%,#16a34a '+a1+'% '+a2+'%,#8b5cf6 '+a2+'% '+a3+'%,#d1d5db '+a3+'% 100%)"><b>'+Aadm.length+'</b></div><div class="legend"><span class="lg"><i style="background:#2563eb"></i>Nederlands '+lg.NL+'</span><span class="lg"><i style="background:#16a34a"></i>Engels '+lg.EN+'</span><span class="lg"><i style="background:#8b5cf6"></i>Beide '+lg['NL/EN']+'</span>'+(lg['?']?'<span class="lg"><i style="background:#d1d5db"></i>Onbekend '+lg['?']+'</span>':'')+'</div></div>';
+ $('charts').innerHTML=c1+c2+c3;
+ if(prof){
+  $('profTitle').textContent='Beoordeling (alleen voor '+prof.l+'): ranglijst en profiel';
+  var T=Aadm.filter(function(x){return x.cur});
+  $('totals').innerHTML='<div class="chart">'+T.map(function(x){return '<div class="row"><div>'+esc(x.m.n)+'</div><div class="tr big"><i style="width:'+(total(x.cur)*10)+'%;background:'+COLR[x.st]+'"></i></div><em>'+total(x.cur).toFixed(1)+'</em></div>'}).join('')+'</div><p style="font-size:.8rem;color:var(--mut)">Score 1-10 (eigen beoordeling voor '+esc(prof.l)+', gebaseerd op '+esc(prof.basis)+').</p>';
+  var cols=['#2563eb','#0ea5e9','#d97706'];
+  $('radar').innerHTML=T.length?radar(T.slice(0,3).map(function(x,i){return {n:x.m.n,s:x.cur.s,c:cols[i]}}),prof.crit):'<p style="color:var(--mut);text-align:center">Geen beoordeelde minors.</p>';
+  var CC=C.concat(B).filter(function(x){return x.cur&&x.st==='V'}).sort(cmpf).slice(0,3),cc=['#2563eb','#7c3aed','#059669'];
+  $('radarC').innerHTML=CC.length?radar(CC.map(function(x,i){return {n:x.m.n,s:x.cur.s,c:cc[i]}}),prof.crit):'<p style="color:var(--mut);text-align:center">Geen beoordeelde minors.</p>';
+  var idsA={};Aadm.forEach(function(x){idsA[x.mi]=1});var idsO={};B.concat(C).forEach(function(x){idsO[x.mi]=1});
+  $('toel').innerHTML=commTable(prof.comm,idsA);$('toelc').innerHTML=commTable(prof.comm,idsO);
+  $('critTitle').textContent='Beoordeling voor '+prof.l;$('critDesc').textContent=prof.desc;
+  $('crit').innerHTML='<table><thead><tr><th>#</th><th>Criterium</th><th>Gewicht</th><th>Wat meet het</th></tr></thead><tbody>'+prof.crit.map(function(k){return '<tr><td>'+esc(k.k)+'</td><td>'+esc(k.l)+'</td><td>'+k.w+'%</td><td>'+esc(k.d)+'</td></tr>'}).join('')+'</tbody></table>'}
+ $('cardsTitle').textContent=tlab+' '+y+': toegankelijk voor jouw opleiding ('+Aadm.length+')';
+ var key=y+'|'+t+'|'+sid;if(window.__key!==key){window.__key=key;window.__all=false}
+ var LIM=24,shown=window.__all?Aadm:Aadm.slice(0,LIM);
+ $('cards').innerHTML=(shown.map(card).join('')||'<p>Geen minors voor deze opleiding in dit semester volgens Osiris. Bekijk het uitklapmenu of vraag de studieloopbaanbegeleider.</p>');
+ $('moreWrap').innerHTML=Aadm.length>shown.length?'<button id="moreBtn" style="margin:14px 0;padding:9px 16px;border:2px solid var(--red);background:#fff;color:var(--red);border-radius:8px;font-weight:600;cursor:pointer">Toon alle '+Aadm.length+' minors</button>':'';
+ var chips=function(a){return '<div class="chips">'+a.map(function(x){return '<span>'+link(x,y)+' <small>('+esc(x.m.i)+')</small></span>'}).join('')+'</div>'};
+ $('naBox').style.display=Ano.length?'':'none';$('naTitle').textContent='Dit semester aangeboden, maar niet toegankelijk voor jouw opleiding ('+Ano.length+')';$('naBody').innerHTML=chips(Ano);
+ $('unkBox').style.display=Aunk.length?'':'none';$('unkTitle').textContent='Dit semester aangeboden, toelating voor jouw opleiding onbekend ('+Aunk.length+')';$('unkBody').innerHTML=chips(Aunk)+'<p style="font-size:.85rem;color:var(--mut)">De bron noemt geen deelnemende opleidingen. Vraag het na via de minorpagina.</p>';
+ // overige
+ window.__other=B.concat(C).sort(cmpf);
+ $('otherInfo').textContent='Niet in de lijst hierboven: minors in '+tlab.toLowerCase()+' zonder (open) inschrijving en minors die in dit collegejaar alleen in een ander semester staan. Klap uit voor de volledige lijst.';
+ $('otherTitle').textContent='Overige minors ('+window.__other.length+'): zoeken en bekijken';
+ renderOther();renderCmp()}
+
+function renderOther(){
+ if(!window.__other||!CTX)return;
+ var prof=CTX.prof,y=CTX.y;
+ var q=$('q').value.toLowerCase(),fs=$('fs').value,ft=$('ft').value;
+ var rows=window.__other.filter(function(x){
+  if(fs&&x.st!==fs)return false;if(ft&&x.tier!==ft)return false;
+  if(q&&(x.m.n+' '+x.m.i+' '+(x.cur?x.cur.n:'')).toLowerCase().indexOf(q)<0)return false;return true});
+ var h='<table><thead><tr><th></th><th>Soort</th><th>Minor</th><th>Inst.</th><th>Sem.</th><th>Taal</th><th>EC</th>'+(prof?prof.crit.map(function(k){return '<th title="'+esc(k.l)+'">'+esc(k.k)+'</th>'}).join('')+'<th>Totaal</th>':'')+'<th>Opmerking</th></tr></thead><tbody>';
+ rows.forEach(function(x){var m=x.m,c=x.cur,o=x.o;
+  var note=c?c.n:'';if(o.w)note+=(note?'; ':'')+o.w;if(x.tier==='B')note+=(note?'; ':'')+'Geen (open) inschrijving in de data';if(o.src.length===1&&o.src[0]==='hint')note+=(note?'; ':'')+'Alleen op HINT, niet in Osiris';
+  h+='<tr><td><input type="checkbox" data-c="'+x.mi+'"'+(cmpSel.indexOf(x.mi)>-1?' checked':'')+'></td><td>'+badge(x.st)+'</td><td class="nm">'+link(x,y)+(c&&c.star?' *':'')+'</td><td>'+esc(m.i)+'</td><td>'+semLabel(x)+'</td><td>'+esc(o.l)+'</td><td>'+(o.ec||'')+'</td>'+
+   (prof?(c?c.s.map(function(v){return '<td class="sc" style="background:'+hue(v)+'">'+v+'</td>'}).join('')+'<td class="tt"><b>'+total(c).toFixed(1)+'</b></td>':'<td colspan="'+(prof.crit.length+1)+'"></td>'):'')+'<td class="nt">'+esc(note)+'</td></tr>'});
+ $('otherTable').innerHTML=h+'</tbody></table>'+(rows.length?'':'<p style="color:var(--mut)">Geen resultaten.</p>')}
+
+function renderCmp(){
+ $('cmpSec').style.display=cmpSel.length?'':'none';
+ if(!cmpSel.length||!CTX)return;
+ var y=CTX.y,prof=CTX.prof,s=CTX.s;
+ var cols=cmpSel.map(function(mi){
+  var o=O.filter(function(x){return x.m===mi&&x.y===y&&x.act&&x.t===CTX.t})[0]||O.filter(function(x){return x.m===mi&&x.y===y&&x.act})[0];
+  if(!o)return {mi:mi,none:true};
+  var e=enrich(o,s,prof);e.d=detail(e,y);return e});
+ var row=function(label,fn){return '<tr><td>'+label+'</td>'+cols.map(function(c){return '<td>'+(c.none?'':fn(c))+'</td>'}).join('')+'</tr>'};
+ var h='<table class="cmpt"><thead><tr><th></th>'+cols.map(function(c){return '<th>'+esc(M[c.mi].n)+(c.none?' (niet in '+y+')':'')+'</th>'}).join('')+'</tr></thead><tbody>';
+ h+=row('Status voor jouw opleiding',function(c){return badge(c.st)});
+ h+=row('Instituut',function(c){return esc(D.inst[c.m.i]||c.m.i)});
+ h+=row('Semester',function(c){return tl(y,c.o.t)});
+ h+=row('Studiepunten',function(c){return c.o.ec||''});
+ h+=row('Voertaal',function(c){return esc(c.o.l)});
+ h+=row('Locatie',function(c){return c.d?esc(c.d.loc):''});
+ h+=row('Vorm',function(c){return c.d?esc((c.d.forms||[]).join(', ')):''});
+ h+=row('Inschrijving',function(c){return esc(enrText(c.o)||c.o.n)});
+ if(prof){prof.crit.forEach(function(k,i){h+=row(esc(k.l),function(c){return c.cur?c.cur.s[i]:''})});h+=row('Totaal ('+esc(prof.l)+')',function(c){return c.cur?'<b>'+total(c.cur).toFixed(1)+'</b>':''})}
+ h+=row('Omschrijving',function(c){return c.d?esc(short(c.d.desc||c.d.tag,420)):''});
+ h+=row('Toelatingseisen',function(c){return c.d?esc(short(c.d.adm,420)):''});
+ h+=row('Waarschuwing',function(c){return esc(c.o.w)});
+ h+=row('Pagina',function(c){return c.d&&c.d.url?'<a href="'+esc(c.d.url)+'" target="_blank" rel="noopener">HINT</a>':''});
+ $('cmpBox').innerHTML=h+'</tbody></table>'}
+
+document.addEventListener('click',function(ev){if(ev.target&&ev.target.id==='moreBtn'){window.__all=true;render()}});
+document.addEventListener('change',function(ev){
+ var t=ev.target;if(t&&t.getAttribute&&t.getAttribute('data-c')!==null){
+  var mi=parseInt(t.getAttribute('data-c'),10),i=cmpSel.indexOf(mi);
+  if(t.checked){if(i<0){if(cmpSel.length>=4){t.checked=false;return}cmpSel.push(mi)}}else if(i>-1)cmpSel.splice(i,1);
+  document.querySelectorAll('input[data-c="'+mi+'"]').forEach(function(x){x.checked=cmpSel.indexOf(mi)>-1});
+  renderCmp()}});
+$('cmpClear').addEventListener('click',function(e){e.preventDefault();cmpSel=[];document.querySelectorAll('input[data-c]').forEach(function(x){x.checked=false});renderCmp()});
+
+// selectors
+var yr=$('year'),tm=$('term'),sd=$('study');
+YEARS.forEach(function(y){var o=document.createElement('option');o.value=y;o.textContent=y;yr.appendChild(o)});
+function fillTerms(keep){tm.innerHTML='';termsOf(yr.value).forEach(function(t){var o=document.createElement('option');o.value=t;o.textContent=tl(yr.value,t);tm.appendChild(o)});if(keep&&termsOf(yr.value).indexOf(keep)>-1)tm.value=keep}
+var order=S.map(function(n,i){return i}).sort(function(a,b){return lab(S[a]).localeCompare(lab(S[b]),'nl')});
+var bach=document.createElement('optgroup'),ad=document.createElement('optgroup');bach.label='Bachelor';ad.label='Associate degree';
+order.forEach(function(i){var o=document.createElement('option');o.value=S[i].id;o.textContent=lab(S[i]);(S[i].lv==='Associate degree'?ad:bach).appendChild(o)});
+sd.appendChild(bach);sd.appendChild(ad);
+var ds=defaultSel();
+var y0=P.get('y')&&YEARS.indexOf(P.get('y'))>-1?P.get('y'):ds.y;yr.value=y0;fillTerms();
+var t0=P.get('t')&&termsOf(y0).indexOf(P.get('t'))>-1?P.get('t'):(y0===ds.y?ds.t:termsOf(y0)[0]);tm.value=t0;
+var s0=P.get('s')&&S.some(function(x){return x.id===P.get('s')})?P.get('s'):'b-informatica';
+if(!S.some(function(x){return x.id===s0}))s0=S[0].id;sd.value=s0;
+yr.addEventListener('change',function(){var k=tm.value;fillTerms(k);render()});
+tm.addEventListener('change',render);sd.addEventListener('change',render);
+['q','fs','ft'].forEach(function(id){$(id).addEventListener('input',renderOther)});
+// bronnen en dataset
+$('srcList').innerHTML=(D.sources.sources||[]).map(function(s){return '<li><b>'+esc(s.name)+'</b>'+(s.url?' (<a href="'+esc(s.url)+'">link</a>)':'')+': '+esc((s.provides||[]).join(', '))+(s.requires_login?' (inloggen met HR-account nodig)':'')+'</li>'}).join('');
+var snaps=(D.sources.snapshots||[]);
+$('snapList').textContent=snaps.map(function(x){return x.source+' '+x.year+' ('+x.retrieved+')'}).join(', ')||'-';
+$('snap').textContent=snaps.length?'Gegevens van '+snaps.map(function(x){return x.retrieved}).sort().pop()+'.':'';
+$('foot').textContent='Gebouwd op '+D.built+' · Bronnen: HINT en Osiris, Hogeschool Rotterdam · Gebruik op eigen risico, gemaakt met behulp van AI';
+render();
+})();
+</script>
+</body>
+</html>

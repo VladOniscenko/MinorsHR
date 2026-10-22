@@ -1,0 +1,686 @@
+[
+ {
+  "id": "ad-accountancy",
+  "name": "Ad Accountancy",
+  "label": "Accountancy",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-arts-crafts",
+  "name": "Ad Arts & Crafts",
+  "label": "Arts & Crafts",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-built-environment",
+  "name": "Ad Built Environment",
+  "label": "Built Environment",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-crossmediale-communicatie",
+  "name": "Ad Crossmediale Communicatie",
+  "label": "Crossmediale Communicatie",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-data-analytics",
+  "name": "Ad Data Analytics",
+  "label": "Data Analytics",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-educatief-professional-beroepsonderwijs",
+  "name": "Ad Educatief Professional Beroepsonderwijs",
+  "label": "Educatief Professional Beroepsonderwijs",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-engineering",
+  "name": "Ad Engineering",
+  "label": "Engineering",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-event-experience-management",
+  "name": "Ad Event & Experience Management",
+  "label": "Event & Experience Management",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-finance",
+  "name": "Ad Finance",
+  "label": "Finance",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-ict-internet-of-things",
+  "name": "Ad ICT Internet of Things",
+  "label": "ICT Internet of Things",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-ict-service-management",
+  "name": "Ad ICT Service Management",
+  "label": "ICT Service Management",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-information-security",
+  "name": "Ad Information Security",
+  "label": "Information Security",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-logistiek-management",
+  "name": "Ad Logistiek Management",
+  "label": "Logistiek Management",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-maintenance-mechanics",
+  "name": "Ad Maintenance & Mechanics",
+  "label": "Maintenance & Mechanics",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-management",
+  "name": "Ad Management",
+  "label": "Management",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-management-in-de-zorg",
+  "name": "Ad Management in de Zorg",
+  "label": "Management in de Zorg",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-ondernemen",
+  "name": "Ad Ondernemen",
+  "label": "Ondernemen",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-pedagogisch-educatief-professional",
+  "name": "Ad Pedagogisch Educatief Professional",
+  "label": "Pedagogisch Educatief Professional",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-sales-en-accountmanagement",
+  "name": "Ad Sales en Accountmanagement",
+  "label": "Sales en Accountmanagement",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-smart-media-production",
+  "name": "Ad Smart Media Production",
+  "label": "Smart Media Production",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-smart-technology",
+  "name": "Ad Smart Technology",
+  "label": "Smart Technology",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-sociaal-financiele-dienstverlening",
+  "name": "Ad Sociaal Financiële Dienstverlening",
+  "label": "Sociaal Financiële Dienstverlening",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-sociaal-werk",
+  "name": "Ad Sociaal Werk",
+  "label": "Sociaal Werk",
+  "level": "Associate degree"
+ },
+ {
+  "id": "ad-software-development",
+  "name": "Ad Software Development",
+  "label": "Software Development",
+  "level": "Associate degree"
+ },
+ {
+  "id": "b-accountancy",
+  "name": "B Accountancy",
+  "label": "Accountancy",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-applied-data-science-artificial-intelligence",
+  "name": "B Applied Data Science & Artificial Intelligence",
+  "label": "Applied Data Science & Artificial Intelligence",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-automotive",
+  "name": "B Automotive",
+  "label": "Automotive",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-autonome-beeldende-kunst",
+  "name": "B Autonome Beeldende Kunst",
+  "label": "Autonome Beeldende Kunst",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-autonome-beeldende-kunst-fotografie",
+  "name": "B Autonome Beeldende Kunst: Fotografie",
+  "label": "Autonome Beeldende Kunst: Fotografie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-bedrijfskunde",
+  "name": "B Bedrijfskunde",
+  "label": "Bedrijfskunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-bedrijfskunde-3-jaar-vwo-instroom",
+  "name": "B Bedrijfskunde (3 jaar, vwo instroom)",
+  "label": "Bedrijfskunde (3 jaar, vwo instroom)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-biologie-en-medisch-laboratoriumonderzoek",
+  "name": "B Biologie en Medisch Laboratoriumonderzoek",
+  "label": "Biologie en Medisch Laboratoriumonderzoek",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-bouwkunde",
+  "name": "B Bouwkunde",
+  "label": "Bouwkunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-business-it-management",
+  "name": "B Business IT & Management",
+  "label": "Business IT & Management",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-chemie",
+  "name": "B Chemie",
+  "label": "Chemie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-chemische-technologie",
+  "name": "B Chemische Technologie",
+  "label": "Chemische Technologie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-civiele-techniek",
+  "name": "B Civiele Techniek",
+  "label": "Civiele Techniek",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie",
+  "name": "B Commerciële Economie",
+  "label": "Commerciële Economie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-3-jaar-vwo-instroom",
+  "name": "B Commerciële Economie (3 jaar, vwo instroom)",
+  "label": "Commerciële Economie (3 jaar, vwo instroom)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-creative-marketing-innovation",
+  "name": "B Commerciële Economie (Creative Marketing & Innovation)",
+  "label": "Commerciële Economie (Creative Marketing & Innovation)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-creative-marketing-en-sales",
+  "name": "B Commerciële Economie (Creative Marketing en Sales)",
+  "label": "Commerciële Economie (Creative Marketing en Sales)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-global-marketing-en-sales",
+  "name": "B Commerciële Economie (Global Marketing en Sales)",
+  "label": "Commerciële Economie (Global Marketing en Sales)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-marketing-of-social-business",
+  "name": "B Commerciële Economie (Marketing of Social Business)",
+  "label": "Commerciële Economie (Marketing of Social Business)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-sportmarketing-en-management",
+  "name": "B Commerciële Economie (Sportmarketing en Management)",
+  "label": "Commerciële Economie (Sportmarketing en Management)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-commerciele-economie-rotterdam-topsport-academie",
+  "name": "B Commerciële Economie: Rotterdam Topsport Academie",
+  "label": "Commerciële Economie: Rotterdam Topsport Academie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-communicatie",
+  "name": "B Communicatie",
+  "label": "Communicatie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-communication-and-multimedia-design",
+  "name": "B Communication and Multimedia Design",
+  "label": "Communication and Multimedia Design",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-creative-media-and-game-technologies-diff-mediatechn",
+  "name": "B Creative Media and Game Technologies - diff. Mediatechn.",
+  "label": "Creative Media and Game Technologies - diff. Mediatechn.",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-docent-beeldende-kunst-en-vormgeving",
+  "name": "B Docent Beeldende Kunst en Vormgeving",
+  "label": "Docent Beeldende Kunst en Vormgeving",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-elektrotechniek",
+  "name": "B Elektrotechniek",
+  "label": "Elektrotechniek",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-facility-management",
+  "name": "B Facility Management",
+  "label": "Facility Management",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-finance-control",
+  "name": "B Finance & Control",
+  "label": "Finance & Control",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-finance-tax-and-advice",
+  "name": "B Finance, Tax and Advice",
+  "label": "Finance, Tax and Advice",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-finance-tax-and-advice-banking-insurance",
+  "name": "B Finance, Tax and Advice - Banking & Insurance",
+  "label": "Finance, Tax and Advice - Banking & Insurance",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-finance-tax-and-advice-tax-law-economics",
+  "name": "B Finance, Tax and Advice - Tax Law & Economics",
+  "label": "Finance, Tax and Advice - Tax Law & Economics",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-finance-tax-and-advice-tax-law-ethics",
+  "name": "B Finance, Tax and Advice - Tax, Law & Ethics",
+  "label": "Finance, Tax and Advice - Tax, Law & Ethics",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-finance-tax-and-advice-financial-advice-data-analytics",
+  "name": "B Finance, Tax and Advice -Financial Advice & Data Analytics",
+  "label": "Finance, Tax and Advice -Financial Advice & Data Analytics",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-human-resource-management",
+  "name": "B Human Resource Management",
+  "label": "Human Resource Management",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-industrieel-product-ontwerpen",
+  "name": "B Industrieel Product Ontwerpen",
+  "label": "Industrieel Product Ontwerpen",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-informatica",
+  "name": "B Informatica",
+  "label": "Informatica",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-international-business",
+  "name": "B International Business",
+  "label": "International Business",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-international-business-fast-track",
+  "name": "B International Business (fast track)",
+  "label": "International Business (fast track)",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-leisure-events-management",
+  "name": "B Leisure & Events Management",
+  "label": "Leisure & Events Management",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-leisure-management",
+  "name": "B Leisure Management",
+  "label": "Leisure Management",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-logistics-engineering",
+  "name": "B Logistics Engineering",
+  "label": "Logistics Engineering",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-logistics-management",
+  "name": "B Logistics Management",
+  "label": "Logistics Management",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-maritiem-officier",
+  "name": "B Maritiem Officier",
+  "label": "Maritiem Officier",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-maritieme-techniek",
+  "name": "B Maritieme Techniek",
+  "label": "Maritieme Techniek",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-medische-hulpverlening",
+  "name": "B Medische Hulpverlening",
+  "label": "Medische Hulpverlening",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-mens-en-techniek-zorgtechnologie",
+  "name": "B Mens en Techniek - Zorgtechnologie",
+  "label": "Mens en Techniek - Zorgtechnologie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-ondernemerschap-retail-management-entrepreneurship",
+  "name": "B Ondernemerschap & Retail Management: Entrepreneurship",
+  "label": "Ondernemerschap & Retail Management: Entrepreneurship",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-ondernemerschap-retail-management-entrepreneurship-3-j",
+  "name": "B Ondernemerschap & Retail Management: Entrepreneurship (3 j",
+  "label": "Ondernemerschap & Retail Management: Entrepreneurship (3 j",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-ondernemerschap-retail-management-managing-new-retail",
+  "name": "B Ondernemerschap & Retail Management: Managing New Retail",
+  "label": "Ondernemerschap & Retail Management: Managing New Retail",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-ondernemerschap-retail-management-managing-new-retail-2",
+  "name": "B Ondernemerschap & Retail Management: Managing New Retail (",
+  "label": "Ondernemerschap & Retail Management: Managing New Retail (",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-fysiotherapeut",
+  "name": "B Opleiding tot Fysiotherapeut",
+  "label": "Opleiding tot Fysiotherapeut",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-verpleegkundige",
+  "name": "B Opleiding tot Verpleegkundige",
+  "label": "Opleiding tot Verpleegkundige",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-basisonderwijs",
+  "name": "B Opleiding tot leraar Basisonderwijs",
+  "label": "Opleiding tot leraar Basisonderwijs",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-2e-graad-gezondheidszorg-en-welzij",
+  "name": "B Opleiding tot leraar VO 2e graad Gezondheidszorg en Welzij",
+  "label": "Opleiding tot leraar VO 2e graad Gezondheidszorg en Welzij",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-aardrijkskunde",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Aardrijkskunde",
+  "label": "Opleiding tot leraar VO van de 2e graad in Aardrijkskunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-algemene-econom",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Algemene Econom",
+  "label": "Opleiding tot leraar VO van de 2e graad in Algemene Econom",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-biologie",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Biologie",
+  "label": "Opleiding tot leraar VO van de 2e graad in Biologie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-duits",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Duits",
+  "label": "Opleiding tot leraar VO van de 2e graad in Duits",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-economie",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Economie",
+  "label": "Opleiding tot leraar VO van de 2e graad in Economie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-engels",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Engels",
+  "label": "Opleiding tot leraar VO van de 2e graad in Engels",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-frans",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Frans",
+  "label": "Opleiding tot leraar VO van de 2e graad in Frans",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-geschiedenis",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Geschiedenis",
+  "label": "Opleiding tot leraar VO van de 2e graad in Geschiedenis",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-maatschappijlee",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Maatschappijlee",
+  "label": "Opleiding tot leraar VO van de 2e graad in Maatschappijlee",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-natuurkunde",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Natuurkunde",
+  "label": "Opleiding tot leraar VO van de 2e graad in Natuurkunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-nederlands",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Nederlands",
+  "label": "Opleiding tot leraar VO van de 2e graad in Nederlands",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo-van-de-2e-graad-in-wiskunde",
+  "name": "B Opleiding tot leraar VO van de 2e graad in Wiskunde",
+  "label": "Opleiding tot leraar VO van de 2e graad in Wiskunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-tot-leraar-vo2de-gr-in-technisch-beroepsonderwi",
+  "name": "B Opleiding tot leraar VO2de gr. in Technisch Beroepsonderwi",
+  "label": "Opleiding tot leraar VO2de gr. in Technisch Beroepsonderwi",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-voor-ergotherapie",
+  "name": "B Opleiding voor Ergotherapie",
+  "label": "Opleiding voor Ergotherapie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-opleiding-voor-logopedie",
+  "name": "B Opleiding voor Logopedie",
+  "label": "Opleiding voor Logopedie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-ruimtelijke-ontwikkeling-ruimtelijke-ordening-planolog",
+  "name": "B Ruimtelijke Ontwikkeling | Ruimtelijke Ordening & Planolog",
+  "label": "Ruimtelijke Ontwikkeling | Ruimtelijke Ordening & Planolog",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-small-business-en-retail-management-entrepreneurship",
+  "name": "B Small Business en Retail Management: Entrepreneurship",
+  "label": "Small Business en Retail Management: Entrepreneurship",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-social-work",
+  "name": "B Social Work",
+  "label": "Social Work",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-technische-bedrijfskunde",
+  "name": "B Technische Bedrijfskunde",
+  "label": "Technische Bedrijfskunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-technische-informatica",
+  "name": "B Technische Informatica",
+  "label": "Technische Informatica",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vastgoedkunde",
+  "name": "B Vastgoedkunde",
+  "label": "Vastgoedkunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-verloskunde",
+  "name": "B Verloskunde",
+  "label": "Verloskunde",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-advertising",
+  "name": "B Vormgeving: Advertising",
+  "label": "Vormgeving: Advertising",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-animatie",
+  "name": "B Vormgeving: Animatie",
+  "label": "Vormgeving: Animatie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-audiovisueel-ontwerpen",
+  "name": "B Vormgeving: Audiovisueel Ontwerpen",
+  "label": "Vormgeving: Audiovisueel Ontwerpen",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-audiovisuele-vormgeving",
+  "name": "B Vormgeving: Audiovisuele Vormgeving",
+  "label": "Vormgeving: Audiovisuele Vormgeving",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-grafisch-ontwerpen",
+  "name": "B Vormgeving: Grafisch Ontwerpen",
+  "label": "Vormgeving: Grafisch Ontwerpen",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-grafische-vormgeving",
+  "name": "B Vormgeving: Grafische Vormgeving",
+  "label": "Vormgeving: Grafische Vormgeving",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-illustratie",
+  "name": "B Vormgeving: Illustratie",
+  "label": "Vormgeving: Illustratie",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-mode",
+  "name": "B Vormgeving: Mode",
+  "label": "Vormgeving: Mode",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-product-design",
+  "name": "B Vormgeving: Product Design",
+  "label": "Vormgeving: Product Design",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-ruimtelijk-ontwerpen",
+  "name": "B Vormgeving: Ruimtelijk Ontwerpen",
+  "label": "Vormgeving: Ruimtelijk Ontwerpen",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-transformation",
+  "name": "B Vormgeving: Transformation",
+  "label": "Vormgeving: Transformation",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-vormgeving-transformation-design",
+  "name": "B Vormgeving: Transformation Design",
+  "label": "Vormgeving: Transformation Design",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-watermanagement",
+  "name": "B Watermanagement",
+  "label": "Watermanagement",
+  "level": "Bachelor"
+ },
+ {
+  "id": "b-werktuigbouwkunde",
+  "name": "B Werktuigbouwkunde",
+  "label": "Werktuigbouwkunde",
+  "level": "Bachelor"
+ }
+]

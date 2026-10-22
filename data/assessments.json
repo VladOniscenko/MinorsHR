@@ -1,0 +1,2607 @@
+{
+ "profiles": [
+  {
+   "id": "informatica",
+   "label": "Informatica",
+   "studies": [
+    "b-informatica"
+   ],
+   "basis_year": "2026-2027",
+   "retrieved": "2026-10-22",
+   "description": "Eigen beoordeling voor Informatica-studenten op basis van de omschrijving op HINT. Verdiepend = minor in de richting IT, verbredend = minor buiten IT. Het zijn inschattingen, geen officiële cijfers.",
+   "criteria": [
+    {
+     "key": "C",
+     "label": "Loopbaan",
+     "description": "Meerwaarde voor je loopbaan (verdiepend: direct inzetbaar als IT-professional; verbredend: waardevolle aanvulling op een IT-profiel)",
+     "weight": 25
+    },
+    {
+     "key": "T",
+     "label": "Inhoud",
+     "description": "Inhoud en uitdaging: hoe diepgaand en uitdagend is de leerstof?",
+     "weight": 20
+    },
+    {
+     "key": "D",
+     "label": "Nieuw",
+     "description": "Nieuw ten opzichte van de hoofdfase: leer je iets dat je nog niet deed?",
+     "weight": 15
+    },
+    {
+     "key": "A",
+     "label": "Toelating",
+     "description": "Toelating en aansluiting: kom je erin en past het niveau bij Informatica?",
+     "weight": 10
+    },
+    {
+     "key": "P",
+     "label": "Praktijk",
+     "description": "Echte opdrachtgever of project, portfolio-waarde",
+     "weight": 10
+    },
+    {
+     "key": "W",
+     "label": "Haalbaar",
+     "description": "Haalbaarheid en werkdruk: slagingskans, NDA, capaciteitslimiet, zelfstudie",
+     "weight": 10
+    },
+    {
+     "key": "L",
+     "label": "Praktisch",
+     "description": "Taal, locatie, vorm",
+     "weight": 10
+    }
+   ],
+   "items": {
+    "security-lab": {
+     "type": "verdiepend",
+     "scores": [
+      9,
+      9,
+      9,
+      8,
+      8,
+      6,
+      8
+     ],
+     "note": "140 EC, NDA, max. 30 plekken",
+     "star": false
+    },
+    "large-language-models-engineering": {
+     "type": "verdiepend",
+     "scores": [
+      9,
+      9,
+      9,
+      7,
+      8,
+      6,
+      8
+     ],
+     "note": "120 EC, Python, max. 30 plekken, motivatiebrief",
+     "star": false
+    },
+    "data-science": {
+     "type": "verdiepend",
+     "scores": [
+      8,
+      8,
+      7,
+      9,
+      8,
+      7,
+      8
+     ],
+     "note": "Informatica expliciet welkom",
+     "star": false
+    },
+    "data-ai-driven-healthcare-innovation": {
+     "type": "verdiepend",
+     "scores": [
+      7,
+      7,
+      8,
+      8,
+      10,
+      7,
+      8
+     ],
+     "note": "Echte opdrachtgever, zorgcontext",
+     "star": false
+    },
+    "cross-platform-software-development-for-nature": {
+     "type": "verdiepend",
+     "scores": [
+      7,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7
+     ],
+     "note": "OO-ervaring vereist",
+     "star": false
+    },
+    "omgaan-met-genai-omga": {
+     "type": "verdiepend",
+     "scores": [
+      7,
+      6,
+      8,
+      8,
+      9,
+      7,
+      7
+     ],
+     "note": "GenAI-prototype voor een echte opdrachtgever; Informatica genoemd",
+     "star": false
+    },
+    "data-impact-generator": {
+     "type": "verdiepend",
+     "scores": [
+      7,
+      6,
+      7,
+      8,
+      10,
+      6,
+      6
+     ],
+     "note": "Scrum, 2-3 dagen per week als embedded consultant; Informatica genoemd",
+     "star": false
+    },
+    "digital-humans": {
+     "type": "verdiepend",
+     "scores": [
+      6,
+      6,
+      7,
+      8,
+      7,
+      7,
+      8
+     ],
+     "note": "Gen-AI en ethiek; meer ontwerp dan engineering",
+     "star": false
+    },
+    "user-experience-design": {
+     "type": "verdiepend",
+     "scores": [
+      6,
+      5,
+      7,
+      8,
+      7,
+      7,
+      8
+     ],
+     "note": "Ontwerp, geen code",
+     "star": false
+    },
+    "embedded-systems": {
+     "type": "verdiepend",
+     "scores": [
+      5,
+      8,
+      8,
+      6,
+      6,
+      6,
+      6
+     ],
+     "note": "Primair voor Technische Informatica; anderen met toestemming",
+     "star": false
+    },
+    "game-design-development": {
+     "type": "verdiepend",
+     "scores": [
+      5,
+      7,
+      6,
+      9,
+      8,
+      5,
+      7
+     ],
+     "note": "Veel werk, twee game-projecten",
+     "star": false
+    },
+    "smart-things": {
+     "type": "verdiepend",
+     "scores": [
+      5,
+      6,
+      7,
+      8,
+      7,
+      7,
+      8
+     ],
+     "note": "IoT, elektronica en ondernemerschap",
+     "star": false
+    },
+    "datadriven-ai-solutions": {
+     "type": "verdiepend",
+     "scores": [
+      5,
+      4,
+      5,
+      7,
+      7,
+      8,
+      7
+     ],
+     "note": "Data/AI-geletterdheid voor niet-techneuten",
+     "star": false
+    },
+    "programma-en-projectmanagement-dt": {
+     "type": "verbredend",
+     "scores": [
+      8,
+      6,
+      8,
+      7,
+      6,
+      7,
+      6
+     ],
+     "note": "",
+     "star": true
+    },
+    "programma-en-projectmanagement": {
+     "type": "verbredend",
+     "scores": [
+      8,
+      6,
+      8,
+      7,
+      6,
+      7,
+      6
+     ],
+     "note": "",
+     "star": true
+    },
+    "entrepreneurship": {
+     "type": "verbredend",
+     "scores": [
+      7,
+      6,
+      9,
+      7,
+      8,
+      5,
+      5
+     ],
+     "note": "Engelstalig, geen dropshipping",
+     "star": false
+    },
+    "ondernemerschap": {
+     "type": "verbredend",
+     "scores": [
+      7,
+      6,
+      9,
+      7,
+      8,
+      5,
+      5
+     ],
+     "note": "Eigen bedrijf opzetten in 20 weken; geen dropshipping; Nederlands",
+     "star": false
+    },
+    "zorgtechnologie": {
+     "type": "verbredend",
+     "scores": [
+      6,
+      5,
+      8,
+      9,
+      7,
+      7,
+      6
+     ],
+     "note": "Zorg en techniek, voor iedereen toegankelijk",
+     "star": false
+    },
+    "ai-driven-digital-marketing": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      7,
+      8,
+      7,
+      7
+     ],
+     "note": "Marketingstrategie met AI voor een echt bedrijf; Engels",
+     "star": true
+    },
+    "all-stars-consultancy-change": {
+     "type": "verbredend",
+     "scores": [
+      6,
+      5,
+      8,
+      6,
+      8,
+      7,
+      6
+     ],
+     "note": "Consultancy",
+     "star": false
+    },
+    "designful-innovation": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      9,
+      8,
+      6,
+      7,
+      7
+     ],
+     "note": "Speculatief ontwerp; Engels B2",
+     "star": false
+    },
+    "ethiek-digitaliteit-en-economie": {
+     "type": "verbredend",
+     "scores": [
+      6,
+      5,
+      8,
+      7,
+      7,
+      7,
+      6
+     ],
+     "note": "Zelfde programma als Digital Humans",
+     "star": false
+    },
+    "build-your-own-business": {
+     "type": "verbredend",
+     "scores": [
+      6,
+      5,
+      9,
+      5,
+      8,
+      5,
+      6
+     ],
+     "note": "Eigen bedrijf; intakegesprek verplicht; ca. 150 euro literatuur",
+     "star": false
+    },
+    "communicatie-bij-verandering": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      7,
+      6,
+      7,
+      8
+     ],
+     "note": "",
+     "star": false
+    },
+    "future-focused-business-innovator": {
+     "type": "verbredend",
+     "scores": [
+      6,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "risicomanagement-en-gedrag": {
+     "type": "verbredend",
+     "scores": [
+      6,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "mechatronica": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      7,
+      9,
+      5,
+      6,
+      5,
+      6
+     ],
+     "note": "Robots, machine vision",
+     "star": true
+    },
+    "rotterdam-changemakers": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      6,
+      8,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "behavioural-economics-for-change": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "business-models-for-positive-impact": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "marketing-in-een-online-wereld": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "sales-en-accountmanagement": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "influential-design-creative-engineering": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      9,
+      6,
+      7,
+      6,
+      6
+     ],
+     "note": "Productontwerp en bouwen",
+     "star": true
+    },
+    "leading-the-factory-of-the-future": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      5,
+      7,
+      6,
+      6
+     ],
+     "note": "Industrie 4.0",
+     "star": true
+    },
+    "business-society": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "Internationale teams, strategie en duurzame innovatie; Engels",
+     "star": false
+    },
+    "de-accountant-in-bussiness": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "15 SP",
+     "star": false
+    },
+    "dgo-digital-skills-built-environment": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      5,
+      7,
+      6,
+      5
+     ],
+     "note": "",
+     "star": true
+    },
+    "i-love-brands": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      4,
+      8,
+      7,
+      6,
+      7,
+      8
+     ],
+     "note": "",
+     "star": false
+    },
+    "international-business-and-career-ibac": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "Internationale consultancyteams; Engels",
+     "star": false
+    },
+    "international-sustainable-logistics-supply-chain-management": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "minor-buitenland": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "Minor in het buitenland",
+     "star": false
+    },
+    "minor-extern-rbs": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "Externe minor",
+     "star": false
+    },
+    "minor-nyenrode": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "15 SP; externe minor",
+     "star": false
+    },
+    "getconnected": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      7,
+      6,
+      7,
+      8
+     ],
+     "note": "",
+     "star": false
+    },
+    "happy-work": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "Leiderschap en werkgeluk; onderzoek bij een organisatie",
+     "star": false
+    },
+    "impact-investment-management": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      5,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "focus-on-impact-the-integrated-dashboard": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      6,
+      8,
+      7,
+      6
+     ],
+     "note": "Duurzaamheidsadvies voor een mkb-bedrijf; KPI-dashboard",
+     "star": false
+    },
+    "the-medical-techlab": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      9,
+      6,
+      7,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "vastgoed-tech-de-innovatieve-data-gedreven-kant-van-vastgoed": {
+     "type": "verbredend",
+     "scores": [
+      5,
+      5,
+      8,
+      3,
+      7,
+      6,
+      4
+     ],
+     "note": "Intake, max. 30 plekken, studiereis",
+     "star": false
+    },
+    "circular-transition-in-healthcare": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "circular-value-chains-in-the-built-environment": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "global-mobility-management": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "social-marketing": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "Maatschappelijke vraagstukken en marketing",
+     "star": false
+    },
+    "urban-mobility": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      5,
+      8,
+      5,
+      6,
+      5,
+      6
+     ],
+     "note": "Slim voertuig ontwerpen en bouwen",
+     "star": true
+    },
+    "working-world-wide": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "meer-dan-een-club": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      6,
+      7,
+      7,
+      6
+     ],
+     "note": "",
+     "star": false
+    },
+    "circular-maker": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      5,
+      8,
+      4,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "electrical-power-engineering": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      5,
+      8,
+      4,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "studie-in-het-buitenland": {
+     "type": "verbredend",
+     "scores": [
+      4,
+      4,
+      8,
+      3,
+      6,
+      6,
+      5
+     ],
+     "note": "Studeren bij een partnerinstelling; lijkt gericht op lerarenopleidingen",
+     "star": false
+    },
+    "beleggen-in-vastgoed": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "beyond-impact-initiative-for-sustainable-inclusive-beautiful-city-making": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "bouwmanagement": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "circulaire-gebouwde-omgeving": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "city-branding": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "constructief-ontwerpen": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "contexts-situatedness": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "creating-resilient-cities": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "Gebouwde omgeving; Engels; geen IT-focus",
+     "star": false
+    },
+    "critical-studies": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "cultural-diversity": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "design-fables": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "emerging-fashion-ecologies-and-transitions": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "events-strategisch-design": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "fm-urban-placemaking": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "future-automotive-technology": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      7,
+      4,
+      6,
+      5,
+      6
+     ],
+     "note": "",
+     "star": true
+    },
+    "inkoopmanagement": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      7,
+      5,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "kunst-en-cultuurmanagement": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "materials-systems": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "minor-construct-engineer": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "minor-construct-manage": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "minor-design-build": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "minor-design-engineer": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "minor-igo-extern-buitenland": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "Externe minor",
+     "star": false
+    },
+    "minor-igo-extern-nederland": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "Externe minor",
+     "star": false
+    },
+    "new-earth": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "offshore-constructions": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      5,
+      8,
+      4,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "ontwerpen-architectuur": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "ontwerpen-stedenbouw": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "powerplay": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "procestechnologie-energietransitie": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      5,
+      8,
+      4,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "re-imagining-tomorrow-through-arts-sciences-rasl": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "real-estate-en-facility-management": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "renovatie-en-transformatie": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "self-organise": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "sonic-cultures": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "stadsontwikkeling-vastgoed": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "supply-chain-management": {
+     "type": "verbredend",
+     "scores": [
+      3,
+      4,
+      7,
+      5,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "taxeren-en-makelaardij": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "the-writing-studio": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "visual-culture": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      9,
+      4,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "waterbouw": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      5,
+      7,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "maritime-and-port-management": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      7,
+      5,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "yachts-small-craft": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      7,
+      5,
+      6,
+      6,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "doorstroom-minors-rbs": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      6,
+      6,
+      5,
+      7,
+      6
+     ],
+     "note": "Ondersteunende vakken voor doorstroom",
+     "star": false
+    },
+    "high-tech-cardiac-care": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      4,
+      6,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "toegepast-en-duurzaam-onderzoek-in-de-chemie": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      4,
+      6,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "biochemische-research": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      1,
+      6,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "diagnostiek": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      1,
+      6,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "externe-minor-cohort-2026-2027": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      7,
+      1,
+      6,
+      6,
+      4
+     ],
+     "note": "Externe minor",
+     "star": false
+    },
+    "minor-buitenland-2": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      7,
+      1,
+      6,
+      6,
+      4
+     ],
+     "note": "Minor in het buitenland",
+     "star": false
+    },
+    "moleculaire-biologie-research": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      1,
+      6,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "proefdierkunde": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      4,
+      8,
+      1,
+      6,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "agoog-in-de-ggz-dt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "agoog-in-de-ggz-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "arbeid-gezondheid-en-welzijn": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "beperkt-onbeperkt-samen-werken-aan-participatie": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "bewegingsonderwijs": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "beyond-borders-challenging-global-health-equity": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "bilingual-teaching-track": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "coachen-vanuit-begeleidingskundig-perspectief-dt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "coachen-vanuit-begeleidingskundig-perspectief-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "de-motorische-sociale-ontwikkeling-van-het-opgroeiende-kind": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "duurzaamheid-en-big-history": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "educatieve-minor": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "eerlijke-kansen-voor-mens-en-natuur-ecorechtvaardigheid-dt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "eerlijke-kansen-voor-mens-en-natuur-ecorechtvaardigheid-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "erfgoededucatie-tweede-wereldoorlog-en-meer": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "ervaringskennis-the-power-of-connection": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "extern": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "Externe minor",
+     "star": false
+    },
+    "externe-minor-ivg": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "15 SP",
+     "star": false
+    },
+    "externe-minor-ivg-2026-2027": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "Externe minor",
+     "star": false
+    },
+    "geweld-dt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "geweld-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "geweld-tegen-hulp-en-dienstverleners": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "gezond-meedoen-door-sport-en-bewegen": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "international-class-teaching-in-an-urban-environment": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "jeugd-dt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "jeugd-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "kunstkracht-voor-creatief-burgerschap": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "leefstijl-en-gezondheid": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "lesgeven-in-de-grote-stad": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "meer-taligheid": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "mensenhandel-dt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "mensenhandel-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "orientatie-leraar-nederlands": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "palliatieve-zorg-een-kwestie-van-dood-en-leven-dt-du": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "palliatieve-zorg-een-kwestie-van-dood-en-leven-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "passend-onderwijs-en-leerlingenzorg": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "praktijkgericht-lesgeven-pgp": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "profileringsminor": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "psychiatrie-in-de-praktijk-van-alle-dag-du": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "psychiatrie-in-de-praktijk-van-alle-dag-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "rekendocent-orientatie-leraar-wiskunde": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "specialist-jonge-kind": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "speelveld-van-de-leraar": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "verward-gedrag": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "wereldburgerschap": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "werken-in-gedwongen-kader-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "zicht-op-passend-en-speciaal-onderwijs": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      2,
+      6,
+      5,
+      5
+     ],
+     "note": "",
+     "star": false
+    },
+    "a-minor-or-major-disaster": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "acute-zorg-miaz-dt-du": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "acute-zorg-miaz-vt-stageroute": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "doorstroomminor-kinderfysiotherapie": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "echografie": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "fast-track-manuele-therapie-van-schouderpijn-naar-expertise": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "oncologie-dt-du": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "oncologie-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "wijkverpleegkundige-in-de-gezonde-wijk-dt-du": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "wijkverpleegkundige-in-de-gezonde-wijk-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "zorg-voor-kind-en-jeugd-du": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    },
+    "zorg-voor-kind-en-jeugd-vt": {
+     "type": "verbredend",
+     "scores": [
+      2,
+      3,
+      7,
+      1,
+      7,
+      5,
+      4
+     ],
+     "note": "",
+     "star": false
+    }
+   },
+   "commentary": [
+    {
+     "minors": [
+      "omgaan-met-genai-omga"
+     ],
+     "summary": "Workshops met GenAI, bedrijfsopdrachten, een GenAI-prototype bouwen (chatbots, assistenten, data-analyse), privacy en ethiek.",
+     "admission": "RBS-programma. Informatica en Technische Informatica staan als deelnemende opleidingen genoemd. Max. aantal deelnemers."
+    },
+    {
+     "minors": [
+      "data-impact-generator"
+     ],
+     "summary": "Praktijkopdracht in een team van 4 met Scrum; 2-3 dagen per week bij een organisatie; data ontsluiten, analyseren en visualiseren.",
+     "admission": "RBS-programma. Informatica en Technische Informatica staan genoemd. Max. aantal deelnemers."
+    },
+    {
+     "minors": [
+      "entrepreneurship",
+      "ondernemerschap"
+     ],
+     "summary": "In 20 weken een eigen bedrijf opzetten en uitbouwen, met echte klanten.",
+     "admission": "Geen dropshipping. Studenten met een bestaand bedrijf volgen een aparte klas na een intakegesprek."
+    },
+    {
+     "minors": [
+      "ai-driven-digital-marketing"
+     ],
+     "summary": "Digitale marketingstrategie met AI-toepassingen voor een echt bedrijf.",
+     "admission": "Engelstalig."
+    },
+    {
+     "minors": [
+      "build-your-own-business"
+     ],
+     "summary": "Een eigen onderneming starten of laten groeien, met aandacht voor impact en technologie.",
+     "admission": "RBS-programma. Intakegesprek verplicht, ca. 150 euro literatuurkosten."
+    },
+    {
+     "minors": [
+      "business-society"
+     ],
+     "summary": "Leiderschap, strategie, duurzame innovatie en consumentengedrag in internationale, multidisciplinaire teams.",
+     "admission": "Engelstalig."
+    },
+    {
+     "minors": [
+      "happy-work"
+     ],
+     "summary": "Persoonlijk leiderschap en werkgeluk; je onderzoekt een echte organisatie en ontwerpt een interventie.",
+     "admission": "Nederlandstalig."
+    },
+    {
+     "minors": [
+      "international-business-and-career-ibac"
+     ],
+     "summary": "Adviesprojecten voor bedrijven in internationale, multiculturele teams.",
+     "admission": "Engelstalig."
+    },
+    {
+     "minors": [
+      "social-marketing"
+     ],
+     "summary": "Maatschappelijke vraagstukken (klimaat, ongelijkheid, gedrag) aanpakken met marketing.",
+     "admission": "Nederlandstalig."
+    },
+    {
+     "minors": [
+      "focus-on-impact-the-integrated-dashboard"
+     ],
+     "summary": "Duurzaamheidsadvies voor een groter mkb-bedrijf (CSRD) en een dashboard met KPI's voor impact.",
+     "admission": "RBS-programma. Informatica staat niet genoemd."
+    },
+    {
+     "minors": [
+      "creating-resilient-cities"
+     ],
+     "summary": "Steden weerbaarder maken tegen klimaat en andere risico's (gebouwde omgeving).",
+     "admission": "Engelstalig. Geen IT-focus."
+    },
+    {
+     "minors": [
+      "studie-in-het-buitenland"
+     ],
+     "summary": "Een semester studeren bij een partnerinstelling in het buitenland.",
+     "admission": "Lijkt gericht op de lerarenopleidingen; bevestig bij de coördinator."
+    },
+    {
+     "minors": [
+      "biochemische-research",
+      "diagnostiek",
+      "moleculaire-biologie-research",
+      "proefdierkunde"
+     ],
+     "summary": "Laboratoriumminors van Engineering en Applied Science.",
+     "admission": "Informatica is volgens Osiris niet toegelaten."
+    },
+    {
+     "minors": [
+      "security-lab"
+     ],
+     "summary": "Ethical-hacker-profiel: pentesten, secure coding, code review, red teaming; 2 groepsprojecten.",
+     "admission": "140 EC met alle projecten van jaar 1 en 2 gehaald. NDA verplicht, max. 30 studenten. Basiskennis netwerken, SQL, Linux/CLI."
+    },
+    {
+     "minors": [
+      "large-language-models-engineering"
+     ],
+     "summary": "NLP/transformers, Hugging Face, LangChain, RAG, multi-agent, LoRA/QLoRA, EU AI Act, eindproject met externe partner.",
+     "admission": "120 EC en Python. Max. 30 studenten, motivatiebrief, daarna volgorde van inschrijving."
+    },
+    {
+     "minors": [
+      "data-science"
+     ],
+     "summary": "Visualisatie, statistiek, data mining/ML, ethiek en privacy plus een doorlopend project.",
+     "admission": "Informatica expliciet genoemd. Stage afgerond en 90 EC hoofdfase, basis Python."
+    },
+    {
+     "minors": [
+      "data-ai-driven-healthcare-innovation"
+     ],
+     "summary": "Multidisciplinair team met zorgprofessionals; profiel data scientist of data engineer bij een echte opdrachtgever.",
+     "admission": "Alle Informatica/ICT-opleidingen zijn welkom."
+    },
+    {
+     "minors": [
+      "cross-platform-software-development-for-nature"
+     ],
+     "summary": "Dart/Flutter-app met sensordata van INGV (vulkanologie), architectuur, requirements, user testing.",
+     "admission": "Stage afgerond, 90 EC en OO-ervaring (C#, Java, C++). Alleen Python telt niet."
+    },
+    {
+     "minors": [
+      "digital-humans"
+     ],
+     "summary": "Gen-AI-gestuurde digitale personages: ontwerp, ethiek, multimodale interactie.",
+     "admission": "Stage + 90 EC. Meer ontwerp en communicatie dan engineering."
+    },
+    {
+     "minors": [
+      "embedded-systems"
+     ],
+     "summary": "Microcontrollers, real-time systemen, C voor gevorderden, FPGA.",
+     "admission": "Bedoeld voor Elektrotechniek en Technische Informatica; anderen met toestemming en intake. Osiris laat Informatica wel toe."
+    },
+    {
+     "minors": [
+      "game-design-development"
+     ],
+     "summary": "2D-mobiele game en daarna 3D-game (Unity) in een team van circa 15; publiceren.",
+     "admission": "Informatica direct toelaatbaar na stage + 90 EC. Veel werk."
+    },
+    {
+     "minors": [
+      "user-experience-design"
+     ],
+     "summary": "Interactieve producten ontwerpen (4 vakken, 2 periodes).",
+     "admission": "Propedeuse, stage en 90 EC. Geen code."
+    },
+    {
+     "minors": [
+      "smart-things"
+     ],
+     "summary": "IoT: slim weerstation, Kickstarter-project, ondernemerschap.",
+     "admission": "Stage + 90 EC. Hardware en prototyping staan voorop."
+    }
+   ]
+  }
+ ]
+}
